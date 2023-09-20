@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    
+}
+
+.all-container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.main-body{
+    width: 100%;
+    height: 95%;
+    display: flex;
+}
+.left-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo{
+    width: 364px;
+    position: relative;
+    left: 20px;
+    bottom: 3px;
+}
+.right-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-cntnt{
+    width: 80%;
+    height: 90%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+  
+}
+.HN{
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(231, 233, 234);
+    font-size: 64px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    letter-spacing: 0px;
+
+}
+.JT{
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(231, 233, 234);
+    letter-spacing: -1.6px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    
+}
+.googleLogo{
+    width: 20px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+
+}
+.google:hover{
+    background-color:rgb(223, 223, 223);
+}
+.Button{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    outline-style: none;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: .2s;
+}
+.google{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(51, 54, 57);
+    color: #0F1419;
+    font-size: 15px;
+    border-width: 1px;
+}
+.apple{
+    margin-top: 13px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(51, 54, 57);
+    color: #0F1419;
+    font-size: 15px;
+    font-weight: 550;
+    border-width: 1px;
+
+}
+.apple:hover{
+    background-color:rgb(223, 223, 223);
+}
+.or{
+    width: 300px;
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+   
+}
+.leftLine,.rightLine{
+    width: 46%;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    
+}
+#or{
+    align-self:first baseline;
+    color: rgb(231, 233, 234);
+}
+.acct{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #1d9bf0;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    border-width: 1px;
+}
+.acct:hover{
+    background-color: rgb(26, 140, 216);
+}  
+.Tos{
+    color: rgb(113, 118, 123);
+    font-size: 11px;
+    line-height: 12px;
+    display: flex;
+}  
+.inner-ToS{
+    width: 300px;
+    color: rgb(113, 118, 123);
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+.inner-ToS a{
+    text-decoration: none;
+    color:rgb(26, 140, 216);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.inner-ToS a:hover{
+    text-decoration: underline;
+}
+.lowerText{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.sign-in{
+    color:#1d9bf0 ;
+    background-color: black;
+    border: 1px solid rgb(83, 100, 113);
+    font-size: 15px;
+    font-weight: 600;
+}
+.sign-in:hover{
+    background-color:rgba(29, 156, 240, 0.118) ;
+}
+.footer{
+    width: 100%;
+    
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.ft{
+    font-size: 13px;
+    color: #71767B;
+}
+.footer-text{
+    font-size: 13px;
+    color: #71767B;
+    display: inline-block;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-text:hover{
+    text-decoration: underline;
+}
+@media (max-width:325px){
+    
+}
